@@ -1,0 +1,113 @@
+# CONFIGS
+#
+# SELECT :
+# 0 = select_best
+#
+# CROSS :
+# 0 = cross_best
+#
+# INSERT :
+# 0 = insert_replace_worst
+#
+# MUTATION :
+# 0 = mutation_1coord
+# 1 = mutation_2coord
+# 2 = mutation_pilar
+# 3 = exchange_mutation
+# 4 = replace_mutation
+# 5 = local_optimum
+# 6 = local_optimum+replace
+# 7 = local_optimum+pilar
+#
+# EXAMPLE :
+# 0000 means :
+#
+# 0 = select_best
+# 0 = cross_best
+# 0 = insert_replace_worst
+# 0 = mutation_1coord
+#
+# STAT = 5
+# ITMAX = 1000
+# SEED = 1516368264
+
+# CONSTRAINTS
+#
+# BEGIN TIME:
+# YEAR: 2017
+# MONTH: 7
+# DAY: 1
+# HOUR: 12
+# MINUTE: 0
+# SECOND: 0
+#
+# END TIME:
+# YEAR: 2017
+# MONTH: 10
+# DAY: 1
+# HOUR: 12
+# MINUTE: 0
+# SECOND: 0
+#
+# TEMPERATURE: 288.15
+# PRESSURE: 101
+# LATITUDE: 0.828632
+# LONGITUDE: -0.00959811
+#
+# BOUNDARY1: ([0;15],[0;15],[2;10])
+# BOUNDARY2: ([0;15],[0;15],[2;10])
+# BOUNDARY3: ([0;15],[0;15],[2;10])
+#
+# FLOOR1: (5,5,0)
+# FLOOR2: (10,5,0)
+# FLOOR3: (10,7,0)
+# FLOOR4: (5,7,0)
+
+0003
+average = 0.785103
+best = 0.799754
+minimum = 0.761445
+time = 1.2
+
+0000
+average = 0.836252
+best = 0.858255
+minimum = 0.817754
+time = 1.2
+
+0002
+average = 0.843314
+best = 0.860942
+minimum = 0.808276
+time = 1.4
+
+0001
+average = 0.852315
+best = 0.86939
+minimum = 0.826906
+time = 1.4
+
+0005
+average = 0.877923
+best = 0.889355
+minimum = 0.858784
+time = 2.4
+
+0007
+average = 0.878097
+best = 0.88634
+minimum = 0.868593
+time = 2.6
+
+0006
+average = 0.885008
+best = 0.889174
+minimum = 0.877703
+time = 2.8
+
+0004
+average = 0.885993
+best = 0.890217
+minimum = 0.87603
+time = 1.4
+
